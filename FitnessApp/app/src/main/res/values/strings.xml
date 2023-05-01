@@ -1,4 +1,15 @@
 <resources>
     <string name="app_name">FitnessApp</string>
     <string name="start">START</string>
+    <string name="addName">Podaj nazwe ćwiczenia</string>
+    <string name="addSeries">Podaj sugerowaną liczbę serii</string>
+    <string name="addRepetition">Podaj sugerowaną liczbę powtórzeń w serii</string>
+    <string name="labelCategories">Zaznacz najwięcej pasujących kategorii</string>
+    <string name="categoryLowerPartsBody">Dolne partie ciała</string>
+    <string name="categoryUpperPartsBody">Górne partie ciała</string>
+    <string name="categoryStrength">Siłowe</string>
+    <string name="categoryEndurance">Wytrzymałościowe</string>
+    <string name="categoryCircumferential">Obwodowe</string>
+    <string name="categoryFunctional">Funkcjonalne</string>
+    <string name="categoryRelaxing">Relaksacyjne</string>
 </resources>
