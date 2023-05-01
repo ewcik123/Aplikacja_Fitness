@@ -3,6 +3,7 @@ package com.example.fitnessapp
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.widget.Button
 import com.example.fitnessapp.Menu.Menu
 
 class MainActivity : AppCompatActivity() {
@@ -10,14 +11,13 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        //buttonStart.setOnClicklistener{
-          //  goToMenuActivity()
-        //}
-
+        findViewById<Button>(R.id.button).setOnClickListener {
+            goToMenuActivity()
+        }
     }
 
-    private fun goToMenuActivity() {
-        val activityGoToMenu = Intent(applicationContext, Menu::class.java)
+    private fun goToMenuActivity(){
+        val activityGoToMenu= Intent(applicationContext, Menu:: class.java)
         startActivity(activityGoToMenu)
     }
 }
