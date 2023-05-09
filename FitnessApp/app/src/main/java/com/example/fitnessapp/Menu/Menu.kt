@@ -15,17 +15,17 @@ class Menu : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_menu)
 
-      val buttonClickAddExercise = findViewById<ImageButton>(R.id.buttonAddExcercise)
-        buttonClickAddExercise.setOnClickListener {
-            val intent = Intent(this, AddExercise::class.java)
-            startActivity(intent)
-        }
+        val buttonClickAddExercise = findViewById<ImageButton>(R.id.buttonAddExcercise)
+            buttonClickAddExercise.setOnClickListener {
+                val intent = Intent(this, AddExercise::class.java)
+                startActivity(intent)
+            }
 
-      val buttonClickBack = findViewById<ImageButton>(R.id.buttonBack)
-      buttonClickBack.setOnClickListener {
-          val intent = Intent(this, MainActivity::class.java)
-          startActivity(intent)
-      }
+        val buttonClickBack = findViewById<ImageButton>(R.id.buttonBack)
+            buttonClickBack.setOnClickListener {
+                val intent = Intent(this, MainActivity::class.java)
+                startActivity(intent)
+            }
 
     }
 }

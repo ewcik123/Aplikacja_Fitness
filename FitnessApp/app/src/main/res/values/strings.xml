@@ -12,4 +12,11 @@
     <string name="categoryCircumferential">Obwodowe</string>
     <string name="categoryFunctional">Funkcjonalne</string>
     <string name="categoryRelaxing">Relaksacyjne</string>
+    <string name ="alertDialogTitleLackOfData">Brak Danych</string>
+    <string name ="alertDialogMessageLackOfData">Proszę podać niebędna dane: nazwę ćwiczenia</string>
+    <string name ="back">Wróć</string>
+    <string name ="addExercise">Dodano ćwiczenie</string>
+    <string name ="alertDialogMessageAddNextExercise">Czy chcesz dodać kolejne ćwiczenie?</string>
+    <string name ="yes">Tak</string>
+    <string name ="no">Nie</string>
 </resources>
