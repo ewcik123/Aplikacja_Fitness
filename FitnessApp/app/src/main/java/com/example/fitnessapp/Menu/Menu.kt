@@ -6,6 +6,7 @@ import android.os.Bundle
 import android.widget.Button
 import android.widget.ImageButton
 import com.example.fitnessapp.AddExercise.AddExercise
+import com.example.fitnessapp.AllExercise.AllExercises
 import com.example.fitnessapp.MainActivity
 import com.example.fitnessapp.Modele.Exercise
 import com.example.fitnessapp.R
@@ -34,6 +35,12 @@ class Menu : AppCompatActivity() {
             startActivity(intent)
         }
 
+
+        val buttonClickAllExercises = findViewById<ImageButton>(R.id.buttonAllExcercise)
+        buttonClickAllExercises.setOnClickListener {
+            val intent = Intent(this, AllExercises::class.java)
+            startActivity(intent)
+        }
     }
 }
 
